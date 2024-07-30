@@ -1,43 +1,44 @@
 html {
     box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-      Box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-  }
-  
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0)
 }
 
-.reclink{
+*, .linktext {
+    color: black;
+}
+
+.reclink {
     list-style-position: inside;
+    color: white;
 }
 
-#recipetitle{
+#recipetitle {
     font-size: 24px;
 }
 
 #webtitle {
-
     font-size: 50px;
     text-align: center;
     background-color: rgb(250, 138, 58);
     padding: 10px;
-    margin: 0px auto;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
-
 }
 
 #logo {
     display: inline;
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: center;
     width: auto;
     height: 50px;
@@ -53,72 +54,139 @@ html {
 .pic {
     height: auto;
     width: 300px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
-    margin: 50px auto; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
 }
 
 .recipes {
     background-color: rgb(250, 138, 58);
     margin: auto;
     text-align: center;
-
-    /*box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);*/
+    color: white;
 }
 
 #recipetitle {
     background-color: rgb(250, 176, 58);
     padding: 5px;
+    color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .reclink {
     margin: 10px;
     padding: 10px;
+    color: white;
 }
 
 .bar {
     background-color: rgb(250, 176, 58);
     margin-bottom: 5px;
-    padding: 5px; 
+    padding: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .bottom {
     background-color: rgb(250, 176, 58);
     margin-bottom: -150px;
-    padding: 10px; 
+    padding: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-
 }
 
 .tit {
-
     margin: 15px;
     padding: 5px;
-
 }
 
 .desc {
-
- 
     display: block;
-
 }
 
-.photofood{
+.photofood {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -50px;
     text-align: center;
 }
 
-.caption{
+.caption {
     margin-top: -50px;
     color: grey;
 }
 
-.prep {
-
+.barprep {
     background-color: rgb(250, 176, 58);
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 8px;
+}
 
+.prep {
+    background-color: white;
+    margin: 15px 0px;
+    padding: 15px;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.preptext {
+    margin-top: 10px;
+}
+
+.ingredients {
+
+    margin: 10px;
+border: 1px solid black;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.ingredtit {
+
+font-size: 30px;
+background-color: rgb(250, 176, 58);
+margin: 0px;
+padding: 10px;
+color: white;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.directions {
+
+margin: 10px;
+border: 1px solid black;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.list {
+    margin-left: 50px;
+    padding:10px;
+}
+
+.directtit {
+
+    font-size: 30px;
+background-color: rgb(250, 176, 58);
+margin: 0px;
+padding: 10px;
+color: white;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.bottomimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+.source {
+    color: grey;
+    margin-top: 50px;
 }

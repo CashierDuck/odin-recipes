@@ -1,33 +1,124 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+      Box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+
 * {
-    background-color: rgb(131, 131, 131);
     font-family: Arial, Helvetica, sans-serif;
-    color: white
+    color: rgb(0, 0, 0)
 }
 
-.recipe{
+.reclink{
     list-style-position: inside;
 }
 
-#rectit{
+#recipetitle{
     font-size: 24px;
 }
 
 #webtitle {
 
-    font-size: 48px;
+    font-size: 50px;
     text-align: center;
+    background-color: rgb(250, 138, 58);
+    padding: 10px;
+    margin: 0px auto;
+    color: rgb(255, 255, 255);
 
+}
+
+#logo {
+    display: inline;
+    margin: 0px auto;
+    text-align: center;
+    width: auto;
+    height: 50px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     text-align: center;
 }
 
-.luffy {
+.pic {
     height: auto;
     width: 300px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    margin: 50px auto; 
+}
+
+.recipes {
+    background-color: rgb(250, 138, 58);
+    margin: auto;
+    text-align: center;
+
+    /*box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);*/
+}
+
+#recipetitle {
+    background-color: rgb(250, 176, 58);
+    padding: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.reclink {
+    margin: 10px;
+    padding: 10px;
+}
+
+.bar {
+    background-color: rgb(250, 176, 58);
+    margin-bottom: 5px;
+    padding: 5px; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.bottom {
+    background-color: rgb(250, 176, 58);
+    margin-bottom: -150px;
+    padding: 10px; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.tit {
+
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.desc {
+
+ 
+    display: block;
+
+}
+
+.photofood{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.caption{
+    margin-top: -50px;
+    color: grey;
+}
+
+.prep {
+
+    background-color: rgb(250, 176, 58);
+
 }
